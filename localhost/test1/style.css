@@ -1,0 +1,74 @@
+html, body{
+   /* background: ;*/
+    overflow-x: hidden;
+    font-family: Verdena, sans-serif;
+    /*background: url(img/img.jpg) no-repeat top / cover;*/
+}
+
+.Ras{
+    text-align: center;
+    border-left-width: 150px;
+    font-size-adjust: revert;
+}
+
+.content__1{
+    margin: 25px;
+}
+
+.modif{
+    margin: 25px;
+}
+
+.layer {
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 300px; /* Ширина блока */
+    height: 150px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+table{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px;
+}
+
+table td{
+    width: 100px;
+}
+
+.table2{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.layer{
+    width: 588px;
+}
+
+.td1style{
+    width: 300px;
+}
+
+.td2style{
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.content__1, .content__2{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%
+    border: 1px solid #000;
+    background: #eee;
+}
+
